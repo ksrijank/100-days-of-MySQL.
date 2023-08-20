@@ -1,0 +1,13 @@
+/*********** 1) Aggregate Functions ************/
+/*
+AVG(), COUNT(), MIN(), MAX(), SUM()
+*/
+SELECT COUNT(*) FROM employees;
+
+SELECT MIN(emp_no) FROM employees;
+
+/* Get the highest salary avaliable */
+SELECT MAX(salary) AS Max_Salary FROM salaries;
+
+/* Get the total amount of salaries paid */
+SELECT SUM(salary) AS Total_Salary_Paid FROM salaries;
