@@ -6,8 +6,13 @@ SELECT COUNT(*) FROM employees;
 
 SELECT MIN(emp_no) FROM employees;
 
-/* Get the highest salary avaliable */
+/* Get the highest salary available */
 SELECT MAX(salary) AS Max_Salary FROM salaries;
 
 /* Get the total amount of salaries paid */
 SELECT SUM(salary) AS Total_Salary_Paid FROM salaries;
+
+/*Query all columns for a city in CITY with the ID 1661.*/
+select * from city where ID= '1661';
+
+/**/
